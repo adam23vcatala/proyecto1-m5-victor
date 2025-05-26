@@ -9,11 +9,11 @@ public class EntradaSalidaDatos {
         this.sc = new Scanner(System.in);
     }
     
-    public void mostrarCadena (String str) {
+    public void mostrarCadena(String str) {
         System.out.println(str);
     }
     
-    public String introducirCadena () {
+    public String introducirCadena() {
         String str = sc.nextLine();
         return str;
     }
